@@ -14,31 +14,31 @@ Educativo y de Aprendizaje Personal
 
 1. :Git 
    ```bash
-  Es un Sistema de Control de Versiones 
-  - Revisar el historial 
-  Descripción: Muestra el historial de commits, incluyendo autor, fecha y mensaje.
-   git log
-   git log --oneline → versión compacta
-   git log --graph --all → visualización en forma de rama
+        Es un Sistema de Control de Versiones 
+        - Revisar el historial 
+        Descripción: Muestra el historial de commits, incluyendo autor, fecha y mensaje.
+        git log
+        git log --oneline → versión compacta
+        git log --graph --all → visualización en forma de rama
 
-  - Verificar quien hizo cada cambio y cuándo lo realizo
-    git blame <archivo>
+        - Verificar quien hizo cada cambio y cuándo lo realizo
+            git blame <archivo>
 
-  - 🔸 Revertir un cambio
-    Comandos según la situación:
+        - 🔸 Revertir un cambio
+            Comandos según la situación:
 
-    Revertir un commit específico sin alterar historial:
-    git revert <id-del-commit>
+            Revertir un commit específico sin alterar historial:
+            git revert <id-del-commit>
 
-    Deshacer cambios locales (sin haber hecho commit):
-    git checkout -- <archivo>
+            Deshacer cambios locales (sin haber hecho commit):
+            git checkout -- <archivo>
 
-    Restaurar el estado de un archivo al último commit:
-    git restore <archivo>
+            Restaurar el estado de un archivo al último commit:
+            git restore <archivo>
 
-  🔸 Crear un punto único de verdad (snapshot confiable del proyecto)
-    git add .
-    git commit -m "mensaje claro y descriptivo"
+        🔸 Crear un punto único de verdad (snapshot confiable del proyecto)
+            git add .
+            git commit -m "mensaje claro y descriptivo"
 
 
 2. :git
