@@ -199,13 +199,3 @@ Educativo y de Aprendizaje Personal
     ```bash 
     git log --oneline
     git show 32f39f1
-
-
-29.
-30.
-31.
-32.
-
-
-
-
