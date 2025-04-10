@@ -88,3 +88,69 @@ Educativo y de Aprendizaje Personal
 
     github si depende de git , Plataforma privada, puedes generar equipos de trabajo, redes
 
+10. Explicación de Comandos
+    ```bash
+    graph : Dibuja un gráfico de commits
+    all: Muestra los commits de todas las ramas
+    stat: Muestra archivos y cantidad de lineas modificadas
+    patch: Muestra los detalles de los cambios
+    oneline: Muestra cada commit en una sola linea(mejor lectura)
+
+11. git cherry-pick
+    ```bash
+    Selecciona commit específicos 
+    Cuando deseas incorporar un cambio sin fusionar la rama completa
+    git cherry-pick <commit>
+
+12. git reset 
+    ```bash 
+    Deshacer cambios en el repositorio
+    --soft: Mueve el HEAD a otro commit pero deja los cambio en el stagging
+    --mixed: Mueve el HEAD a otro commit, mantiene cambios pero lo quita de stagging
+    --hard: Mueve el HEAD y elimina los cambios
+
+13. git reflog
+    ```bash 
+    Recupera y rastrea el historial
+    Lista con todas las actualizaciones de los HEAD
+
+14. git commit--amend
+    ```bash 
+    Modifica el último commit realizado
+    Reescribe el historial por lo que se debe usarse en commits que no han sido subido(push)
+
+15. git blame
+    ```bash 
+    Identifica el responsable de un cambio
+    git blame <archivo>
+
+16. git bisect
+    ```bash 
+    Identifica commit que introdujo errores
+    git bisect start
+    git bisect bad
+    git bisect good
+    git bisect reset
+
+17. git revert
+    ```bash 
+    Revierte los cambios de un commit específico
+    No modifica el historial anterior
+    Crea un nuevo commit
+
+18. git tag 
+    ```bash 
+    Marca puntos importantes en el historial
+    Versiones o Cambios significativos
+    Facilita la navegación por el historial 
+
+19. Configuración Inicial
+    ```bash 
+    Configurar nombre de usuario
+    git config --global user.name "usuario"
+    Configurar correo electronico
+    git config --global user.email "ejemplo@email.com"
+    
+
+
+
