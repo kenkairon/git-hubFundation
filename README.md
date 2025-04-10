@@ -15,6 +15,9 @@ Educativo y de Aprendizaje Personal
 1. :Git 
    ```bash
         Es un Sistema de Control de Versiones 
+        -Distribuido
+        -Integridad de Datos
+
         - Revisar el historial 
         Descripción: Muestra el historial de commits, incluyendo autor, fecha y mensaje.
         git log
@@ -150,7 +153,59 @@ Educativo y de Aprendizaje Personal
     git config --global user.name "usuario"
     Configurar correo electronico
     git config --global user.email "ejemplo@email.com"
-    
+
+20. Funcionamiento de Git
+    ```bash 
+    Area de Trabajo: Las carpetas o Archivos que quieres gestionar
+    Area de Preparación: Stagging : Guardar los Cambioscon  un commit
+    Repositorio: Se Encuentra Area de Trabajo, Area Preparación y toda la información
+
+21. Commit
+    ```bash 
+    HAcer un snapshot del proyecto , representa los registro de cambios realizados del proyecto
+
+22. Comandos Básicos
+    ```bash 
+    git init : Inicicializamos un inicio de un trabajo para el repositorio
+    git clone: Clonamos el proyecto
+    git status: Saber en que status esta el archivo
+    git add <nombre archivo> git add . / git add -A / git add --all = Agregamos todos los archivos al area stagging
+    git branch  = ramas
+    git merge
+
+23. Verificacos los archivos ocultos ./  ../ .git/ 
+    ```bash 
+    ls -a
+
+24. Commit 
+    ```bash 
+    touch index.html
+    git add index.html
+    git commit -m "Creamos el archivo index.html "
+
+25. Historial de los cambios
+    ```bash 
+    git log
+
+26. Para Ver la diferencias de dos commit
+     ```bash 
+    git diff
+
+27. Para ver el historial mas comprimido
+     ```bash 
+    git log --oneline
+
+28. Para ver commit específicos
+    ```bash 
+    git log --oneline
+    git show 32f39f1
+
+
+29.
+30.
+31.
+32.
+
 
 
 
