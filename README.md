@@ -249,4 +249,12 @@ Pero no podés cambiar de rama porque tenés cambios sin guardar...
     creamos una rama
     git branch "home"
     git checkout home
-    
+
+37. Eliminar ramas
+    ```bash
+    git branch -d nombre-rama
+
+38. Eliminar ramas remotas
+    ```bash
+    git push origin --delete nombre-rama
+
