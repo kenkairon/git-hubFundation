@@ -199,3 +199,54 @@ Educativo y de Aprendizaje Personal
     ```bash 
     git log --oneline
     git show 32f39f1
+
+29. Filtrar por archivo, autor o fecha:
+    ```bash
+    git log --graph --oneline --all --author="Tu Nombre"
+
+30. checkout
+    ```bash
+    git checkout <id commit>
+
+31. git stash: Estás trabajando en una funcionalidad, tenés cambios hechos pero todavía no estás listo para hacer commit. De repente, necesitás cambiar de rama urgente para revisar un bug.
+Pero no podés cambiar de rama porque tenés cambios sin guardar...
+    ```bash
+    # Estás trabajando y modificás archivo1.txt y archivo2.txt
+    git status
+    # Muestra los cambios sin confirmar
+
+    git stash
+    # Git guarda esos cambios temporalmente
+    # Tu directorio queda limpio como si recién hubieras hecho pull o commit
+
+    git checkout otra-rama
+    # Ahora podés cambiar de rama sin perder lo que estabas haciendo
+
+    git stash pop
+    # Recuperás los cambios guardados en la rama actual
+
+32. Tipos de git stash
+    ```bash
+    git stash
+    git stash list
+    git stash apply
+    git stash clear
+
+33. git checkout
+    ```bash
+    git checkout 32f39f1
+
+34. Verificamos la rama del proyecto
+    ```bash
+    git branch 
+
+35. Vamos a la rama main
+    ```bash
+     git checkout main
+
+36. Añadir información para ejemplificar
+    ```bash
+    creamos una rama
+    git branch "home"
+    git checkout home
+    
